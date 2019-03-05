@@ -7,11 +7,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid HorizontalAlignment="Right" Width="792">
+        
         <Button
             x:Name="btnShow"
             Height="35"
             Width="100"
             Content="Show"
             Click="btnShow_Click"/>
+        <Button
+            x:Name="btnHello"
+            Height="35"
+            Width="100"
+            Margin="120,140,120,20"
+            Content="Hello"
+            Click="btnHello_Click"/>
     </Grid>
 </Window>
