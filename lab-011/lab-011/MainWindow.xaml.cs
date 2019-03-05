@@ -24,5 +24,13 @@ namespace lab_011
         {
             InitializeComponent();
         }
+
+        private void btnShow_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(
+                "Thông báo",
+                "Hello Everyone"
+                );
+        }
     }
 }
