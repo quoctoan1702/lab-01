@@ -32,5 +32,13 @@ namespace lab_011
                 "Hello Everyone"
                 );
         }
+
+        private void btnHello_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(
+            "Thông Báo",
+            "Hello"
+            );
+        }
     }
 }
